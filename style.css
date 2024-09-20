@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;  
+    border: 1px solid white;  
+    box-shadow: rgba(128, 128, 128, 0.4);
+    margin: 10rem;
+    width: 75%;
+    height: 66vh;
+}
+
+.contact-info{
+    padding: 2rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #fff;
+   text-align: left;
+   background-color: #027CFE;
+   width: 100%;
+   height: 100%;
+   gap: 2rem; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contact-info h2{
+    font-size: 25px;
+
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.phoneimg{
+    width: 1.2rem;
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    width: 51%;
+}
+
+.mailimg{
+    width: 1.5rem;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.inputfeild{
+    width: 100%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    outline: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #80808020;
+}
+
+.message{
+    width:100%;
+    height:140px;
+    font-size: 14px;
+    background-color:#80808020 ;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    outline: none;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+
+}
+
+.SubmiBtnContainer{
+    width: 100%;
+    display: flex;
+    align-items: start;
+}
+.submitbtn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    background-color: #027CFE;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    
+
+}
+
+.submitbtn:hover{
+    background-color: #0460c2;
+}
+
+@media(max-width:941px){
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+
+    .submitbtn{
+        border-radius: 5px;
+        border: 1px solid #cbcbcb;
+        background-color: #027CFE;
+
+    }
+
+    .container{
+    display: flex;
+    justify-content:center;
+    align-items: center;  
+    border: 1px solid white;  
+    flex-direction: column;
+    box-shadow: rgba(128, 128, 128, 0.4);
+    margin: 1rem auto;
+    width: 95%;
+    height: 100%;
+    }
+
+    .contact-info{
+       padding: 2rem;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       color: #fff;
+       text-align: left;
+       background-color: #027CFE;
+       width: 100%;
+       height: 100%;
+       gap: 2rem; 
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
+    .mail{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 51%;
+    }
+
+}
+    
